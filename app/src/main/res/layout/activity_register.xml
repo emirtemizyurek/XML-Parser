@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".RegisterActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/hugin"
+        android:layout_margin="@dimen/_4sdp"/>
+
+
+    <EditText
+        android:id="@+id/editText_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxWidth="@dimen/_350sdp"
+        android:layout_margin="@dimen/_4sdp"
+        android:hint="Username" />
+
+
+    <EditText
+        android:id="@+id/editText_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxWidth="@dimen/_350sdp"
+        android:layout_margin="@dimen/_4sdp"
+        android:hint="Password" />
+
+
+    <EditText
+        android:id="@+id/editText_rePassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxWidth="@dimen/_350sdp"
+        android:layout_margin="@dimen/_4sdp"
+        android:hint="Password" />
+
+
+
+
+    <Button
+        android:id="@+id/button_Register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_4sdp"
+        android:text="Register"
+        android:textAllCaps="false" />
+
+    <TextView
+        android:id="@+id/textview_Login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_4sdp"
+        android:text="Do you have an acoount? Enter here"
+        android:gravity="center"
+        android:textColor="@color/black"/>
+
+
+</LinearLayout>
